@@ -5,8 +5,9 @@ void main() {
     const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text("Hashi Raja"),
+          child: Text("Hashib Raja"),
         ),
+        backgroundColor: Colors.blueAccent,
       ),
     ),
   );
