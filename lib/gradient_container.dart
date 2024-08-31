@@ -1,4 +1,3 @@
-import 'package:first_app/style_text.dart';
 import 'package:flutter/material.dart';
 
 const startAligment = Alignment.topLeft;
@@ -19,8 +18,11 @@ class GradientContainer extends StatelessWidget {
           end: endAligment,
         ),
       ),
-      child: const Center(
-        child: StyleTextNew("Hashib Raja"),
+      child: Center(
+        child: Image.asset(
+          "assets/images/dice-1.png",
+          width: 200,
+        ),
       ),
     );
   }
