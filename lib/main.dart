@@ -7,12 +7,17 @@ void main() {
         body: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Colors.red, Colors.blue],
-              begin: Alignment.topLeft
-              ),
+                colors: [Colors.red, Colors.blue], begin: Alignment.topLeft),
           ),
           child: const Center(
-            child: Text("Hashib Raja",selectionColor: Colors.white,),
+            child: Text(
+              "Hashib Raja",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ),
         ),
       ),
